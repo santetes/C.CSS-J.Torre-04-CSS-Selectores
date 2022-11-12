@@ -1,0 +1,9 @@
+.texto{
+    background-color: red;
+}
+
+/* Se concatenan las dos clases sin espacios */
+.azul.mayusculas{
+    text-transform: uppercase;
+    color: blue;
+}

@@ -1,0 +1,19 @@
+ul li:nth-child(odd){
+    color: tomato;
+}
+
+/* Otra forma de hacerlo */
+ul li:nth-child(2n + 1){
+    color: cornflowerblue;
+}
+
+/* También se puede modificar la fórmula sabiendo que funciona de la siguiente forma: */
+/* 
+2(0) + 1 = 1
+2(1) + 1 = 3
+2(2) + 1 = 5
+2(3) + 1 = 7
+
+Se puede modificar el multiplicador y el sumatorio
+
+*/

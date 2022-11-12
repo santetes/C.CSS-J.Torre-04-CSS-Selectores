@@ -1,0 +1,6 @@
+.primer-letra::first-letter{
+    font-size: 2rem;
+}
+.primer-linea::first-line{
+    color: red;
+}

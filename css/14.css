@@ -1,0 +1,3 @@
+.elementos p:not(.texto):not(.oferta){
+    color: red;
+}

@@ -1,0 +1,18 @@
+input[type="tel"]{
+    background-color: blue;
+    color: wheat;
+}
+
+/* a[href="http://www.google.com"]{
+    color: red;
+} */
+
+/* tambien se puede indicar que empiece por:... */
+/* a[href^="http"]{
+    color: green;
+} */
+
+/* ...O que acabe por:... */
+a[href$=".com"]{
+    color: purple;
+}
